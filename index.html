@@ -1,81 +1,50 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Poppins&family=Source+Sans+Pro:wght@200;300&display=swap" rel="stylesheet">
-    <title>E-mail template</title>
 </head>
 <body>
-    <header class="cabecalho">
-            <h1 class="h1Cabecalho"><img src="Logo.png" alt=""></h1>
-            
-    </header>
+   <!-- 
+    <div class="intro">
+        <span >B</span>
+        <span >O</span>
+        <span >D</span>
+        <span >Y</span>
 
+        <span >M</span>
+        <span >A</span>
+        <span >S</span>
+        <span >S</span>
+
+        <span >I</span>
+        <span >N</span>
+        <span >D</span>
+        <span >E</span>
+        <span >X</span>
+    </div>
+--> 
     <main>
-        <section class="parte1">
-            <div class="conteiner">
-                <div class="primeiraMetade">
-                    <h1 class="textoSectionUm">Get 25% off* <br> ends 22 April <Br>2021</h1>
-                </div>
 
-                <div class="segundaMetade">
-                    <img class="onlyimg"src="Frame.png" alt="">
-                </div>
-            </div>
-        </section>
+        <div class="box">
+          
+            <h1> Vamos calcular seu IMC ?</h1>
+            <span>Qual seu peso ?</span>
+            <input id="input-peso" type="number">
+            <span>Qual sua altura ?</span>
+            <input id="input-altura" type="number">
+            <button class="btn" id="botao">Resultado</button>
 
-        <section class="parte2">
-            <div >
-                <h1 class="h1ParteDois">Hi zoe, </h1>
-                <p class="pParteDois">Get 25% off* ends 22 April 2021
-                    Hi Zoe,
-                    Have we got something exciting for you… The suns out, time to get the ice cream out! We’re offering you 25% on all ice cream.
-                     The first 100 people that use the code below will also get a mystery gift. Come on, what are you waiting for? </p>
-                    
-                <p class="pParteDois">To find out if your local ice cream shop is participating, check on the app.  
-                   We have 10,000 orders available on a first come, first served basis, so be quick to take advantage. </p>
-                    
-                <p class="pParteDois">    Chocolate, strawberry, pistachio, whatever flavour, we’ve got you covered. 
-                    Enter this code at checkout:
-                    BLANKSPACE
-                    Purchase ice ceam
-                    furquan101
-                    Sent to you from London.
-                    Feel free to unsubscribe anytime.
-                </p>
-            </div>
-        </section>
+            <span id="resultado" class="resultado"></span>
+            
 
-        <section class="parte3">
-            <div class="containerdois">
-                <div class="firstmetade">
-                    <h2 class="textoSectionDois">Enter this code at checkout:</h2>
-                    <h1>BLANKSPACE</h1>
-                    <input class="botaoComprar" type="submit" value="Purchase ice cream">
-                </div>
+        </div>
 
-                <div class="secondmetade">
-                    <img src="presente.png" alt="">
-                </div>
-            </div>
-        </section>
     </main>
 
-    <footer class="footer">
-        <div class="textoFooter">
-            <h1 class="h1Footer">furquan101</h1>
-            <p class="pFooter">Sent to you from Lodon.</p> 
-            <div class="pImgs">
-            <p ><img class="ytb" src="Vector.png" alt="logo-youtube"></p>
-            <p><img class="tt" src="twitter.png" alt="logo-twitter"></p>
-            <p><img class="msgs" src="msg.png" alt="logo-msg"></p> <br>
-            </div>
-            <p class="pFooter">Feel free to unsubscribe anytime.</p>
-        </div>
-    </footer> 
+<script src="script.js"></script>
 </body>
 </html>

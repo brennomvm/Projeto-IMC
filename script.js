@@ -17,7 +17,7 @@ function validaImc (peso , altura){
     console.log(imc);
 
     if(imc < 18.5){
-        resultado.innerHTML ='Você está abaixo do peso ! Coma mais frangote .'
+        resultado.innerHTML ='Você está abaixo do peso ! .'
     } 
     
     else if(imc < 25){
@@ -25,7 +25,7 @@ function validaImc (peso , altura){
     } 
     
     if(imc > 25){
-        resultado.innerHTML ='Você está acima do peso. Va fazer dieta obeso de merda kkk'
+        resultado.innerHTML ='Você está acima do peso. Cuidado'
     }
 }
 
